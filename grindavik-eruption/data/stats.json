@@ -1,0 +1,102 @@
+{
+  "frame_km2": 200.9,
+  "land_km2": 168.8,
+  "water_km2": 32.0,
+  "ndvi_mean": {
+    "2023": 0.4005620777606964,
+    "2024": 0.29388895630836487,
+    "2025": 0.3727855384349823
+  },
+  "ndvi_dec_pct": 21.4,
+  "ndvi_inc_pct": 16.4,
+  "dates": {
+    "2023": "2023-09-21",
+    "2024": "2024-09-15",
+    "2025": "2025-09-18"
+  },
+  "class_area": {
+    "2023": [
+      30.73,
+      147.09,
+      23.04
+    ],
+    "2025": [
+      30.79,
+      113.52,
+      56.56
+    ]
+  },
+  "veg_to_bare": 35.45,
+  "bare_to_veg": 1.99,
+  "veg_area": {
+    "2023": 147.09,
+    "2025": 113.52
+  },
+  "cva_change_km2": 30.8,
+  "cva_change_pct": 18,
+  "pca_var": [
+    88.7,
+    6.1,
+    4.2,
+    0.6,
+    0.3,
+    0.2
+  ],
+  "pca_pc1_dndvi_corr": -0.7,
+  "sar_valid_pct": 73,
+  "sar_dvv_mean": 1.61,
+  "lst_2023": 15.0,
+  "lst_2025": 19.0,
+  "lst_bg": 4.0,
+  "hot_km2": 1.69,
+  "hot_temp": 26.8,
+  "lava_km2": 20.97,
+  "lava_optonly_km2": 4.09,
+  "lava_dvv": 2.72,
+  "lava_anom": 3.9,
+  "lava_lat": 63.895,
+  "lava_lon": 22.364,
+  "dl_iou_test": 0.849,
+  "dl_f1_test": 0.919,
+  "dl_prec_test": 0.873,
+  "dl_rec_test": 0.97,
+  "dl_iou_all": 0.814,
+  "dl_lava_km2": 22.92,
+  "dl_sargap_km2": 0.01,
+  "dl_epochs": 45,
+  "dl_channels": 14,
+  "dl_test_col": 951,
+  "dl_f1_all": 0.897,
+  "dl_prec_all": 0.859,
+  "dl_rec_all": 0.939,
+  "dl_iou_train": 0.696,
+  "dl_prec_train": 0.792,
+  "dl_rec_train": 0.852,
+  "dl_f1_train": 0.821,
+  "dl_auc_test": 0.991,
+  "dl_ap_test": 0.957,
+  "dl_train_patches": 233,
+  "dl_test_patches": 87,
+  "lava_old_km2": 17.23,
+  "lava_new_km2": 3.74,
+  "recency_swir_thr": 0.06,
+  "dist_grindavik_m": 2357,
+  "dist_svartsengi_m": 14,
+  "dist_bluelagoon_m": 113,
+  "dl3_mae_test": 0.0218,
+  "dl3_rmse_test": 0.0426,
+  "dl3_r_test": 0.9949,
+  "dl3_iou_test": 0.849,
+  "dl3_f1_test": 0.918,
+  "dl3_prec_test": 0.86,
+  "dl3_rec_test": 0.986,
+  "dl3_area_km2": 27.09,
+  "dl3_params_m": 7.03,
+  "dl3_epochs": 80,
+  "dl3_cins": [
+    3,
+    7,
+    4
+  ],
+  "dl3_test_col": 951
+}
